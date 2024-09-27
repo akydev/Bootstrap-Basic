@@ -1,0 +1,114 @@
+header{
+    border-bottom: 1px solid black;
+}
+/************************************************Nav Bar Start Here************************************************************/
+img{
+    width: 100%;
+}
+.logo{
+width: 10%;
+}
+.bg-body-navbar{
+    background-color: #ffffff;
+}
+.nav-item{
+    padding: 0px 16px;
+}
+.nav-item a:hover{
+    background-color: #ffffff;
+    color: #00c3ff;
+}
+.navbar-nav .nav-item .active{
+    background-color: #ffffff;
+    color: #00c3ff; 
+}
+.nav-link{
+    text-transform: capitalize;
+}
+/* .menu{
+    padding: 12px 100px;
+} */
+/************************************************Nav Bar End Here************************************************************/
+
+/************************************************Section One Start Here************************************************************/
+/* section{
+position: relative;
+} */
+.relative{
+    position: relative;
+}
+.price{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.title{
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.place{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.carousel-caption{
+    bottom: 25.25rem;
+}
+/* .carousel-control-prev {
+    top: 260px;
+    bottom: 0px;
+    left: 150px;
+    right: 0px;
+    width: 0%;
+} */
+/* .carousel-control-next, .carousel-control-prev{
+   
+    top: 100px;
+    bottom: -112px;
+    right: 0;
+    left: 100px;
+   width: 15%;
+} */
+/* .nav .nav-pills .nav-item{
+    margin: 2px;
+    background-color: #00c3ff;
+} */
+
+.tab-form{
+    position: absolute;
+    top: 780px;
+    left: 120px;
+    z-index: 1;
+}
+label{
+    font-weight: 500;
+}
+.bg-form{
+    background-color: #ffffff;
+    padding: 24px 0px;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    border-bottom-left-radius: 16px; 
+    border-bottom-right-radius: 16px;
+}
+
+/* .tab-form{
+    
+} */
+.tab-content{
+    /* padding-bottom: 26px; */
+}
+.fa-hotel{
+    padding: 0px 12px;
+}
+.fa-plane-up{
+    padding: 0px 12px;
+}
+.fa-map-location-dot{
+    padding: 0px 12px;
+}
+.fa-car-rear{
+    padding: 0px 12px;
+}
+/************************************************Section One End Here************************************************************/

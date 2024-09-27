@@ -1,0 +1,504 @@
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/*************************************************Header Start Here**************************************************************************/
+header{
+    border-bottom: 1px solid #000000;
+}
+header .navbar-expand-lg{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header a{
+    color: #000000;
+    padding: 0px 12px;
+    font-family: roboto;
+    font-weight: 700;
+    
+}
+.nav-item{
+    text-transform: capitalize;
+}
+.right-bd{
+    border-right: 1px solid #000000;
+}
+.fa-dollar-sign{
+    padding: 0px 6px;
+}
+header .fa-phone{
+    padding-left: 6px;
+    padding-right: 12px;
+}
+.fa-right-to-bracket{
+    padding: 0px 6px;
+}
+.fa-user{
+    padding: 0px 6px;
+}
+.fa-language{
+    padding: 0px 6px;
+}
+/*************************************************Header End Here**************************************************************************/
+
+/*************************************************Nav Bar Start Here**************************************************************************/
+.logo{
+    width: 15%;
+}
+.bg-body-navbar{
+    background-color: #ffffff;
+    text-transform: capitalize;
+}
+a.nav-link{
+    padding: 8px 16px !important;
+    font-weight: 700;
+}
+
+nav a:hover {
+    /* background-color: rgb(255, 0, 0); */
+    color: #0395d3 !important;
+    /* border-bottom: 4px solid #00b3ff; */
+  }
+.search-bar{
+    width: 36px;
+    height: 36px;
+    margin-left: 24px;
+    /* text-align: center; */
+    border-radius: 50%;
+    background-color: #0395d3;
+}
+/*************************************************Nav Bar End Here**************************************************************************/
+
+
+/*************************************************Section One Start Here**************************************************************************/
+.section-one{
+ position: relative;
+}
+
+img{
+    width: 100%;
+}
+.price{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.title{
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.section-one .place{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.carousel-caption{
+    left: 0;
+    right: 0;
+    top: 400px;
+    bottom: 0;
+    margin: auto;
+}
+.previous{
+    top: 0;
+    bottom: 0;
+    left: 600px;
+    right: 0;
+    /* margin: auto; */
+}
+.next{
+    top: 200px;
+    bottom: 0;
+    left: 650px;
+    right: 0;
+}
+/* .carousel-control-next-icon{
+    background-image: url(https://fontawesome.com/icons/circle-chevron-right?f=classic&s=solid);
+} */
+.carousel-control-prev{
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.tab-form{
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    /* top: 780px;
+    left: 110px; */
+    /* top: 0;
+    bottom: 0;
+    text-align: center; */
+    left: 0;
+    right: 0;
+    top: 800px;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+}
+label{
+    font-weight: 500;
+}
+.tpadding{
+    padding-top: 48px;
+    margin: 0;
+}
+.bg-form{
+    background-color: #ffffff;
+    padding: 24px 0px;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    border-bottom-left-radius: 16px; 
+    border-bottom-right-radius: 16px;
+}
+.btn-primary{
+    padding: 6px 42px;
+}
+/* .marginleft{
+    margin-left: 0;
+} */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #ffffff;
+    color: #0395d3;
+}
+.nav-pills .nav-link{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+/* .nav-pills{
+    margin: 0px;
+} */
+.nav-pills .nav-link{
+    background: #0395d3;
+    color: #ffffff;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+.active{
+    margin-bottom: 0;
+}
+.fa-hotel{
+    padding: 0px 12px;
+}
+.fa-plane-up{
+    padding: 0px 12px;
+}
+.fa-map-location-dot{
+    padding: 0px 12px;
+}
+.fa-car-rear{
+    padding: 0px 12px;
+}
+/*************************************************Section One End Here**************************************************************************/
+
+
+
+
+/*************************************************Section Two Start Here**************************************************************************/
+.section-two{
+    background-color: #ffffff;
+    padding: 40px 0px;
+}
+.section-two .title{
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 16px;
+    font-family: Roboto;
+}
+.blue-text{
+    color: #00b3ff;
+}
+.title-para{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.src-icon{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    background-color: #00b3ff;
+    position: absolute;
+    top: -30px;
+    left: 200px;
+    z-index: 1;
+}
+.fa-magnifying-glass{
+    color: #ffffff;
+}
+.fa-briefcase{
+    color: #ffffff;
+}
+.fa-credit-card{
+    color: #ffffff;
+}
+.base-div{
+    position: relative;
+}
+.section-two h3{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00b3ff;
+    background-color: #f2f2f2;
+    padding: 32px 24px 14px 24px;
+}
+/*************************************************Section Two End Here**************************************************************************/
+
+/*************************************************Section Three Start Here**************************************************************************/
+.section-three{
+    background-color: #f2f2f2;
+    padding: 40px 0px;
+}
+.section-three .fa-circle-chevron-left{
+    font-size: 24px;
+    display: inline-block;
+    padding-left: 16px;
+   
+}
+.section-three .fa-circle-chevron-right{
+    font-size: 24px;
+    display: inline-block;
+   
+}
+.section-three h3{
+    color: #424242;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding-bottom: 16px;
+}
+.card{
+    width: 24%;
+    background-color: #f2f2f2;
+    padding: 0px 0px;
+}
+.section-three .card-title{
+    font-family: roboto;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 0;
+}
+.price-old{
+    display: block;
+   font-size: 18px;
+   text-align: right;
+   font-family: roboto;
+}
+.place{
+    text-transform: capitalize;
+    color: #9b9b9b;
+    font-size: 16px;
+    font-family: roboto;
+    margin-bottom: 0;
+}
+.price-new{
+    display: block;
+    text-align: right;
+    font-size: 26px;
+    font-family: roboto;
+    margin-bottom: 0;
+}
+hr{
+    margin-top: 14px;
+    margin-bottom: 14PX;
+}
+.time{
+    color: #9b9b9b;
+    font-size: 16px;
+    font-family: roboto;
+    margin-bottom: 0;
+}
+.section-three strong{
+    display: block;
+    text-transform: capitalize;
+    text-align: right;
+    font-family: roboto;
+    font-size: 18px;
+    color: #686868;
+}
+/*************************************************Section Three End Here**************************************************************************/
+
+/*************************************************Section Four Start Here**************************************************************************/
+.section-four{
+    background-color: #ffffff;
+    padding: 40px 0px;
+}
+.section-four .title{
+    color: #424242;
+    font-family: roboto;
+    font-size: 24px;
+}
+/* .section-four.card{
+    margin-right: 24px ;
+} */
+.section-four .card{
+    width: 24%;
+    margin-right: 12px;
+}
+.section-four .card-title{
+    font-family: roboto;
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: left;
+    color: #424242;
+    margin-bottom: 0;
+    padding-top: 6px;
+}
+.hotel{
+    text-align: right;
+    font-family: roboto;
+    font-size: 16px;
+    padding-top: 6px;
+    
+}
+.section-four .card-text{
+    font-family: roboto;
+    font-size: 18px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #9b9b9b;    
+    padding-top: 6px;
+
+}
+.right-arrow{
+    display: block;
+    text-align: right;
+    color: #9b9b9b;
+    font-size: 22px;
+}
+/*************************************************Section Four End Here**************************************************************************/
+
+/*************************************************Section Five Start Here**************************************************************************/
+.section-five{
+    background-color: #333333;
+    padding: 40px 0px;
+}
+.section-five img{
+    max-width: 25%;
+}
+.section-five p{
+    font-size: 16px;
+    padding: 18px 0px;
+    color: #cbcbcb;
+}
+h4{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.heading-four{
+    padding: 20px 0px;
+}
+input{
+    text-transform: capitalize;
+    padding: 6px 16px;
+    width: 70%;
+    height: 36px;
+    border-radius: 4px 4px 4px 4px;
+}
+.bg-blue{
+    display: inline-block;
+    padding: 10px 12px;
+    background-color: #0395d3;
+    color: #ffffff;
+    font-size: 18px;
+}
+.section-five .fa-phone{
+    padding-right: 16px;
+    color: #0395d3;
+    font-size: 22px;
+}
+.tel{
+    text-decoration: none;
+    font-size: 24px;
+    color: #0395d3;
+}
+.mail{
+    display: block;
+    color: #cbcbcb;
+    font-size: 16px;
+    padding: 16px 0px;
+    text-decoration: none;
+}
+.link-two{
+    display: block;
+    color: #cbcbcb;
+    text-transform: capitalize;
+}
+.fa-circle-chevron-right{
+    padding: 10px 8px;
+}
+.fa-twitter{
+    padding: 8px 8px;
+    color: #ffffff;
+    background-color: #00b3ff;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 2px;
+}
+.fa-facebook-f{
+    padding: 8px 12px;
+    color: #ffffff;
+    background-color: #0b678f;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 2px;
+}
+.fa-dribbble{
+    padding: 8px 8px;
+    color: #ffffff;
+    background-color: #ff00bb;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 2px;
+}
+.fa-youtube{
+    padding: 8px 8px;
+    color: #ffffff;
+    background-color: #ff0000;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 2px;
+}
+.fa-rss{
+    padding: 8px 8px;
+    color: #ffffff;
+    background-color: #ffaa00;
+    border-radius: 8px 8px 8px 8px;
+    margin-right: 2px;
+}
+/*************************************************Section Five End Here**************************************************************************/
+
+
+
+
+
+/*************************************************Footer Start Here**************************************************************************/
+footer{
+    background-color: #333333;
+    color: #cbcbcb;
+    text-transform: capitalize;
+}
+.fa-square-caret-up{
+    color: #00b3ff;
+    font-size: 26px;
+}
+/*************************************************Footer End Here**************************************************************************/

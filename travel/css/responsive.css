@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1024px) {
+  .logo{
+        width: 50%;
+    }
+    .carousel-caption{
+        left: 0;
+        right: 0;
+        top: 240px;
+        bottom: 0;
+        margin: auto;
+    }
+    .tab-form{
+        left: 0;
+        right: 0;
+        top: 480px;
+        bottom: 0;
+    }
+    .previous{
+        top: 185px;
+        bottom: 0;
+        left: 450px;
+        right: 0;
+        /* margin: auto; */
+    }
+    .next{
+        top: 185px;
+        bottom: 0;
+        left: 480px;
+        right: 0;
+    }
+   
+    .title-para{
+        font-size: 18px;
+    }
+    .src-icon{
+        top: -30px;
+        left: 150px; 
+    }
+    .section-two h3{
+        font-size: 18px;
+    }
+    .card{
+        width: 48%;
+        margin-bottom: 38px;
+    }
+    .section-three .card-title{
+        font-size: 22px;
+    }
+    .price-old{
+        font-size: 22px;
+    }
+    .place {
+        font-size: 20px;
+    }
+    .time{
+        font-size: 20px;
+    }
+    .section-three strong{
+        font-size: 20px;
+    }
+
+
+    .section-four .card{
+        width: 44%;
+        margin-right: 56px;
+    }
+    .section-four .card-title {
+        font-size: 24px;
+    }
+    .hotel{
+        font-size: 20px;
+    }
+    .section-four .card-text{
+        font-size: 20px;
+    }
+    .section-four .fa-circle-chevron-right{
+        font-size: 30px;
+    }
+    .tel{
+        font-size: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 992px) {
+    
+  }
+
+
+  @media only screen and (max-width: 768px) {
+   /* ul .navbar{
+    display: contents;
+   } */
+   .navbar-nav{
+    flex-direction: row;
+   }
+    .logo{
+        width: 12%;
+    }
+    .carousel-caption{
+        left: 0;
+        right: 0;
+        top: 120px;
+        bottom: 0;
+        margin: auto;
+    }
+    .tab-form{
+        left: 0;
+        right: 0;
+        top: 320px;
+        bottom: 0;
+    }
+    .btn-primary{
+        padding: 6px 24px;
+    }
+
+    .src-icon{
+        top: -30px;
+        left: 350px; 
+        width: 64px;
+        height: 64px;
+        
+    }
+    .title h2{
+        font-size: 42px;
+    }
+    .section-two{
+        padding-top: 60px;
+    }
+    .section-two h3{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .section-two .fa-magnifying-glass{
+        font-size: 24px;
+    }
+
+    .section-two .fa-briefcase{
+        font-size: 24px;
+    }
+
+    .section-two .fa-credit-card{
+        font-size: 24px;
+    }
+    .title-para{
+        font-size: 20px;
+    }
+    .card{
+        width: 100%;
+    }
+    .section-three h3{
+        font-size: 32px;
+    }
+    .section-four .title{
+        font-size: 32px;
+    }
+    .section-three .fa-circle-chevron-left{
+        font-size: 28px;
+    }
+    .section-three .fa-circle-chevron-right{
+        font-size: 28px;
+    }
+    .section-four .card{
+        width: 100%;
+    }
+    .section-four .card-title {
+        font-size: 32px;
+    }
+    .hotel{
+        font-size: 22px;
+    }
+    .section-four .card-text{
+        font-size: 24px;
+    }  
+    .section-four .fa-circle-chevron-right{
+        font-size: 40px;
+    }
+
+  }

@@ -1,0 +1,381 @@
+@media only screen and (max-width: 1024px) {
+    .nav-item {
+        padding: 0px 0px;
+    }
+    .carousel-caption {
+        bottom: 10.25rem;
+    }
+    .edu-title {
+        font-size: 17px;
+    }
+    .caption-para {
+        font-family: Roboto;
+        padding: 22px 2px;
+        margin: 0;
+    }
+    .edu-para {
+        font-size: 12px;
+    }
+    .fa-graduation-cap {
+        font-size: 44px;
+    }
+    .fa-user {
+        font-size: 44px;
+    }
+    .fa-book {
+        font-size: 44px;
+    }
+    .wlc-title {
+        font-size: 42px;
+    }
+    .wlc-text {
+        padding-top: 12px;
+        padding-bottom: 36px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .section-courses .card-title {
+        padding-top: 8px;
+        padding-bottom: 14px;
+       
+    }
+    .section-courses .card {
+        width: 100%;
+        height: 410px;
+        border: 0;
+        border-radius: 0px !important;
+        --bs-card-inner-border-radius: 0;
+    }
+    .card-body .card-text {
+        font-family: roboto;
+        font-size: 16px;
+        color: #002147;
+    }
+    
+    .top-content {
+        position: absolute;
+        top: 32px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        z-index: 2;
+    }
+    .section-campus h1 {
+        font-size: 34px;
+        padding-bottom: 18px;
+        margin: 0;
+    }
+    .section-campus p {
+        font-size: 16px;
+        padding: 0px 238px;
+        margin: 0;
+    }
+    video {
+        width: 224px;
+        height: 240px;
+    }
+
+    .section-skill .card-2-text {
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #002147;
+        margin: 0;
+        padding-bottom: 24px;
+    }
+
+    .section-skill .card-2-title {
+        font-family: Roboto;
+        font-size: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #002147;
+        margin: 0;
+        padding: 14px 0px;
+    }
+   
+    
+    .section-news-event .card-time {
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .card-body .card-3-title {
+        font-family: roboto;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: #002147;
+    }
+    .card-body .card-3-text {
+        font-family: roboto;
+        font-size: 12px;
+        color: #002147;
+    }
+    .div-yello h3 {
+        font-family: Roboto;
+        font-size: 20px;
+        color: #002147;
+        text-align: center;
+    }
+    .div-yello h4 {
+        font-family: Roboto;
+        font-size: 15px;
+        color: #002147;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .navy h6 {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        text-align: center;
+    }
+    .div-yello {
+        background-color: #fdc800;
+        padding-top: 12px;
+        padding-bottom: 8px;
+    }
+    .navy {
+        background-color: #002147;
+        padding: 10px;
+    }
+    .card-4-text {
+        font-family: roboto;
+        font-size: 12px;
+        color: #002147;
+        padding-top: 12px;
+        padding-bottom: 5px;
+    }
+    
+    .card-time-2 {
+        display: inline-block;
+        color: #002147;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        border-right: 1px solid #002147;
+        padding-right: 10px;
+   
+    }
+    .card-place {
+        display: inline-block;
+        color: #002147;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding-left: 10px;
+      
+    }
+    .section-number .container-holder {
+        top: 54px;
+    }
+    .num {
+        font-size: 70px;
+    }
+    .post {
+        font-size: 16px;
+        padding-bottom: 0px;
+        padding-right: 18px;
+        position: absolute;
+        top: 16px;
+        left: 76px;
+    }
+    .post-1 {
+        font-size: 16px;
+        padding-bottom: 0px;
+        padding-right: 18px;
+        position: absolute;
+        top: 16px;
+        left: 76px;
+    }
+    .fa-star {
+        padding-right: 4px;
+        padding-bottom: 44px;
+    }
+    .item-content p {
+        color: #76889e;
+        font-family: Roboto;
+        font-size: 16px;
+        text-transform: capitalize;
+        padding-right: 10px;
+        margin-bottom: 0;
+    }
+    .sqr-img {
+        top: 68px;
+        border: 8px solid white;
+    }
+    .join-now h2 {
+        font-size: 24px;
+        padding-top: 14px;
+        padding-bottom: 54px;
+    }
+    h2 .date {
+        font-size: 26px;
+    }
+    .join-now-btn {
+        padding: 8px 18px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* .navbar {
+       
+        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        --bs-navbar-toggler-border-color: #ffffff;
+        
+    } */
+    .carousel-caption {
+        bottom: 0.25rem;
+    }
+    .d-md-block {
+        display: none!important;
+    }
+    .edu-title {
+        font-size: 11px;
+    }
+    .edu-para {
+        font-size: 8px;
+    }
+    .education-icon {
+        padding-top: 4px;
+    }
+    .fa-graduation-cap {
+        font-size: 30px;
+    }
+    .fa-user {
+        font-size: 30px;
+    }
+    .fa-book {
+        font-size: 30px;
+    }
+    .wlc-title {
+        font-size: 36px;
+    }
+    .wlc-text {
+        font-size: 12px;
+        padding-top: 12px;
+        padding-bottom: 36px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .section-courses .card {
+        width: 100%;
+        height: 450px;
+    }
+    .section-campus h1 {
+        font-size: 22px;
+        padding-bottom: 16px;
+    }
+    .section-campus p {
+        font-size: 10px;
+        padding: 0px 198px;
+    }
+    .section-courses .card-body .card-title {
+        font-size: 24px;
+    }
+    .card-body .card-text {
+        font-size: 18px;
+    }
+    .card-body .card-3-title {
+        font-family: roboto;
+        font-size: 22px;
+        text-transform: capitalize;
+        color: #002147;
+    }
+    .card-body .card-3-text {
+        font-family: roboto;
+        font-size: 18px;
+        color: #002147;
+    }
+    .card-4-text {
+        font-family: roboto;
+        font-size: 16px;
+        color: #002147;
+        padding-top: 12px;
+        padding-bottom: 5px;
+    }
+    .div-yello h3 {
+        font-size: 44px;
+    }
+    .div-yello h4 {
+        font-size: 26px;
+    }
+    .navy h6 {
+        font-size: 26px;
+    }
+    .small, small {
+        font-size: 1.075em;
+    }
+    .card-body .card-text {
+        font-size: 18px;
+    }
+    .btn-view {
+        text-align: center;
+        padding-top: 38px;
+        padding-bottom: 20px;
+    }
+    .section-number .container-holder {
+        top: 44px;
+    }
+    .num {
+        font-size: 48px;
+    }
+    .post {
+        font-size: 12px;
+        top: 14px;
+        left: 70px;
+    }
+    .post-1 {
+        font-size: 12px;
+        top: 14px;
+        left: 70px;
+    }
+    .item-content p {
+        color: #76889e;
+        font-family: Roboto;
+        font-size: 12px;
+        text-transform: capitalize;
+        padding-right: 0px;
+        margin-bottom: 0;
+    }
+    .post-rating h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .post-rating p {
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+    .fa-star {
+        font-size: 12px;
+        padding-right: 4px;
+        padding-bottom: 30px;
+    }
+    .sqr-img {
+        top: 25px;
+        border: 6px solid white;
+    }
+    .join-now {
+        background-color: #002147;
+        text-align: center;
+        padding: 29px;
+        border-left: 4px solid #fdc800;
+    }
+    .join-now-btn {
+        padding: 6px 16px;
+        font-size: 12px;
+    }
+    .join-now h2 {
+        font-size: 18px;
+        padding-top: 14px;
+        padding-bottom: 50px;
+    }
+    h2 .date {
+        font-size: 20px;
+    }
+    
+}

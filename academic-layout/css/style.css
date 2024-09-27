@@ -1,0 +1,905 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+img{
+    max-width: 100%;
+}
+/*****************************************************Nav Bar Start here **************************************************************/
+.bg-body-navy-blue{
+    background-color: #002147 !important;
+}
+
+.navbar-nav {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 500;
+    --bs-nav-link-color: #ffffff;
+    --bs-nav-link-hover-color: #fdc800;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:#fdc800;
+}
+.nav-item{
+    padding: 0px 14px;
+}
+.btn-apply-now{
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #fdc800;
+    color: #002147;
+    padding: 11px 24px;
+}
+/*****************************************************Nav Bar End here **************************************************************/
+
+
+/*****************************************************Section Education Start here **************************************************************/
+.section-education{
+position: relative;
+}
+.overlay-3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 33, 71, 0.4);
+    z-index: 1;
+}
+.section-education .title1 {
+    font-family: Roboto;
+    text-transform: capitalize;
+}
+.caption-para{
+    font-family: Roboto;
+    padding: 22px 150px;
+    margin: 0;
+}
+.btn-course a{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 14px 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #002147;
+    color: #ffffff;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 18.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+/* .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+} */
+.top-content-1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.border-right{
+    border-right: 1px solid white;
+}
+.education-detail{
+    padding: 24px;
+    background-color: rgba(0, 33, 71, 0.6);
+}
+.edu-text{
+    display: inline-block;
+   
+}
+.edu-title{
+    font-family: Roboto;
+    font-size: 24px;
+    color: #f5f5f5;
+    text-transform: capitalize;
+    
+    
+}
+.edu-para{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #f5f5f5; 
+}
+.education-icon {
+    display: inline-block;
+    text-align: center;
+    padding-top: 16px;
+}
+.fa-graduation-cap{
+    color: #fdc800;
+    font-size: 42px;
+}
+.fa-user{
+    color: #fdc800;
+    font-size: 42px;
+}
+.fa-book{
+    color: #fdc800;
+    font-size: 42px;
+}
+/*****************************************************Section Education End here **************************************************************/
+
+
+/*****************************************************Academic Start here **************************************************************/
+.section-academic{
+padding-top: 60px;
+}
+.wlc-title{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 46px;
+    text-transform: capitalize;
+}
+.wlc-text{
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.img-center{
+    text-align: center;
+}
+/*****************************************************Academic End here **************************************************************/
+
+
+/*****************************************************Section Courses Start here **************************************************************/
+.section-courses{
+    padding: 70px 0px;
+    background-color: #f5f5f5;
+    
+}
+.section-courses h1{
+    font-family: Roboto;
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #002147;
+    padding-top: 22px;
+    padding-bottom: 36px;
+    margin: 0;
+}
+.section-courses .card{
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 0px !important;
+    --bs-card-inner-border-radius: 0;
+}
+.section-courses .card-title{
+    font-family: Roboto;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #002147;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+.section-courses .card-text{
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #002147;
+    margin: 0;
+    padding-bottom: 24px;
+}
+.course{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-right: 10px;
+    margin: 0;
+}
+.right-border{
+    border-right: 2px solid #002147;
+}
+.course-2{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+    margin: 0;
+}
+.classes{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-right: 8px;
+    margin: 0;
+}
+.time{
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-right: 12px;
+    margin: 0;
+}
+/*****************************************************Section Courses End here **************************************************************/
+
+/*****************************************************Section Campus End here **************************************************************/
+.section-campus{
+    position: relative;
+}
+.section-campus img{
+    width: 100%;
+}
+.overlay-2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 33, 71, 0.9);
+    z-index: 1;
+}
+.top-content{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 2;
+}
+.section-campus h1{
+    font-family: Roboto;
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #ffffff;
+    /* padding-top: 22px; */
+    padding-bottom: 28px;
+    margin: 0;
+}
+.section-campus p{
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 0px 440px;
+    color: #718baa;
+}
+video{
+    width: 320px;
+    height: 240px;
+   
+}
+/*****************************************************Section Campus End here **************************************************************/
+
+
+/*****************************************************Section Our Skill Start here **************************************************************/
+.section-skill{
+    padding: 60px 0px;
+}
+.section-skill h1{
+    font-family: Roboto;
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #002147;
+    padding-top: 22px;
+    padding-bottom: 36px;
+    margin: 0;
+}
+.relative{
+    position: relative;
+}
+.control{
+    position: absolute;
+    top: -70px;
+    right: 0;
+    z-index: 1;
+}
+.control button{
+    border: 0;
+    padding: 16px 16px;
+    background-color: #fdc800;
+    color: #ffffff;
+    margin-left: 4px;
+}
+/* .control-2 button{
+    border: 0;
+    padding: 16px 16px;
+    background-color: #fdc800;
+    color: #ffffff;
+    margin-left: 4px;
+} */
+.carousel-control-prev {
+    left: -74px;
+    opacity: 1;
+}
+.carousel-control-next {
+    right: 0;
+    opacity: 1;
+}
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+.section-skill .card{
+    width: 100%;
+    border: 0;
+    border-radius: 0px !important;
+    --bs-card-inner-border-radius: 0;
+}
+.section-skill .card-2-title{
+    font-family: Roboto;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #002147;
+    margin: 0;
+    padding: 20px 0px;
+}
+.section-skill .card-2-text{
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #002147;
+    margin: 0;
+    padding-bottom: 24px;
+}
+.skill-icon{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.fa-icon{
+    display: inline-block;
+    background-color: #fdc800;
+    padding: 8px 12px;
+    color: #ffffff;
+}
+.fa-icon .fa-envelope{
+    color: #ffffff;
+    padding: 0;
+}
+.fa-icon .fa-linkedin-in{
+    color: #ffffff;
+}
+.fa-icon .fa-twitter{
+    color: #ffffff;
+}
+.fa-icon .fa-facebook-f{
+    color: #ffffff;
+}
+/*****************************************************Section Our Skill End here **************************************************************/
+
+
+/*****************************************************Section News Event Start here **************************************************************/
+.section-news-event{
+    background-color: #f5f5f5;
+    padding: 70px 0px;
+}
+.section-news-event h2{
+    font-family: roboto;
+    font-size: 26px;
+    text-transform: capitalize;
+    color: #002147;
+    padding-bottom: 32px;
+}
+.card-holder{
+    background-color: #ffffff;
+    padding: 16px;
+}
+.card-holder img{
+    max-width: 100%;
+}
+.card-holder .card-body{
+    padding: 16px;
+    /* padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 2px; */
+}
+.card-body .card-3-title{
+    font-family: roboto;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #002147;
+}
+.card-body .card-3-date{
+    display: block;
+    color: #fdc800;
+    font-family: roboto;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+.card-body .card-3-text{
+    font-family: roboto;
+    font-size: 16px;
+    color: #002147;
+}
+.rounded-start {
+    border-bottom-left-radius: 0!important;
+    border-top-left-radius: 0!important;
+}
+.section-news-event .card{
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-view{
+    text-align: center;
+    padding-top: 38px;
+}
+.btn-view a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px 34px;
+    background-color: #002147;
+    color: #ffffff;
+}
+.event-date{
+    border: 12px solid white;
+}
+.div-yello{
+    background-color: #fdc800;
+    padding-top: 28px;
+    padding-bottom: 8px;
+}
+.div-yello h3{
+    font-family: Roboto;
+    font-size: 28px;
+    color: #002147;
+    text-align: center;
+}
+.div-yello h4{
+    font-family: Roboto;
+    font-size: 20px;
+    color: #002147;
+    text-align: center;
+    text-transform: uppercase;
+}
+.navy{
+    background-color: #002147;
+    padding: 16px; 
+}
+.navy h6{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 22px;
+    text-align: center;
+}
+.card-4-text{
+    font-family: roboto;
+    font-size: 16px;
+    color: #002147;
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+.card-time-2{
+    display: inline-block;
+    color: #002147;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-right: 1px solid #002147;
+    padding-right: 16px;
+}
+.card-place{
+    display: inline-block;
+    color: #002147;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 16px;
+   
+}
+/*****************************************************Section News Event End here **************************************************************/
+
+
+/*****************************************************Section Number Start here **************************************************************/
+
+.banner-img{
+    position: relative;
+}
+.banner-image{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 33, 71, 0.9);
+}
+.base{
+    position: relative;
+}
+
+ .section-number .container-holder{
+    position: absolute;
+    top: 112px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+.num{
+    font-family: roboto;
+    font-size: 96px;
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 2px solid #fdc800;
+    display: inline-block;
+}
+.post{
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 0px;
+    text-align: left;
+    padding-right: 56px;
+    position: absolute;
+    top: 28px;
+    left: 98px;
+}
+.post-1{
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 0px;
+    text-align: left;
+    padding-right: 56px;
+    position: absolute;
+    top: 28px;
+    left: 98px;
+}
+/*****************************************************Section Number End here **************************************************************/
+
+
+/*****************************************************Section Student Say Start here **************************************************************/
+.section-student-say{
+    background-color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 98px;
+}
+.section-student-say h1{
+    color: #002147;
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+    margin-bottom: 0;
+}
+.sqr-img{
+    border: 12px solid white;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 18px;
+    z-index: 1;
+}
+.post-rating h2 {
+    color: #002147;
+    font-family: Roboto;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.post-rating p{
+    color: #76889e;
+    font-family: Roboto;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+.fa-star{
+    color: #fdc800;
+    padding-right: 6px;
+    padding-bottom: 38px;
+}
+.item-content{
+    background-color: #f5f5f5;
+    padding: 32px;
+}
+.item-content p{
+    color: #76889e;
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-right: 150px;
+    margin-bottom: 0;
+
+}
+.carousel-indicators .active {
+    opacity: 1;
+    color: #002147;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 8px;
+    background-color: #002147;
+    background-clip: padding-box;
+    border: 0;
+    /* border-radius: 26px; */
+    /* border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px; */
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    /* opacity: .5; */
+}
+/*****************************************************Section Student Say End here **************************************************************/
+
+
+/*****************************************************Section Student Grid Start here **************************************************************/
+.section-student{
+    background-color: #fdc800;
+    padding: 70px 0px;
+}
+.white-padding{
+    padding: 2px;
+    background-color: #ffffff;
+}
+.section-student .card{
+    width: 12.5%;
+    padding: 2px 2px;
+    border: 0;
+    border-radius: 0px !important;
+    /* border-top: 4px solid white ;
+    border-bottom: 4px solid white ;
+    border-left: 4px solid white ;
+    border-right: 4px solid white ; */
+}
+.join-now{
+    background-color: #002147;
+    text-align: center;
+    padding: 44px;
+    border-left: 4px solid #fdc800;
+}
+.join-now h2{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 44px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 69px;
+    margin-bottom: 0;
+}
+.no-padding{
+    padding: 0;
+}
+h2 .date{
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 42px;
+}
+.join-now-btn{
+    display: inline-block;
+    padding: 16px 26px;
+    background-color: #fdc800;
+    color: #002147;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}
+/*****************************************************Section Student Grid End here **************************************************************/
+
+
+/*****************************************************Brand Partner Start here **************************************************************/
+.section-brand{
+    background-color: #ffffff;
+    padding: 70px 0px;
+}
+/*****************************************************Brand Partner End here **************************************************************/
+
+
+/*****************************************************Section Link Start here **************************************************************/
+.section-link{
+    background-color: #002147;
+    padding: 60px 0px;
+}
+.details img{
+    padding-bottom: 32px;
+}
+.section-link h3{
+    text-transform: capitalize;
+    font-family: roboto;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 8px;
+    padding-bottom: 42px;
+}
+.detail-text{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 22px;
+}
+.social-icon{
+    padding-left: 0px;
+}
+.social-link{
+    display: inline-block;
+    margin-left: 2px;
+    border: 2px solid #2d4765;
+    padding: 8px 12px;
+}
+.fa-facebook-f{
+    padding: 0px 4px;
+    color: #c4c4c4;
+}
+.fa-twitter{
+    color: #c4c4c4;
+}
+.fa-pinterest{
+    color: #c4c4c4;
+}
+.fa-linkedin-in{
+    padding: 0px 1px;
+    color: #c4c4c4;
+}
+.fa-rss{
+    padding: 0px 1px;
+    color: #c4c4c4;
+}
+.fa-google-plus-g{
+    color: #c4c4c4;
+}
+.imp-link{
+    padding-left: 0;
+}
+.left-link{
+    padding-left: 0;
+}
+.right-link{
+    padding-left: 0;
+}
+.imp-left-link{
+    display: inline-block;
+}
+.imp-right-link{
+    display: inline-block;
+    padding-left: 64px;
+}
+.link{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.link .fa-chevron-right{
+    padding-right: 12px;
+    color: #fdc800;
+    padding-bottom: 16px;
+}
+.newsletter{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 20px;
+    padding-bottom: 26px;
+    margin-bottom: 0;
+    padding-top: 12px;
+    
+}
+.tel{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.fa-phone{
+    padding-right: 12px;
+    color: #fdc800;
+    padding-bottom: 16px;
+}
+.mail{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.fa-envelope{
+    padding-right: 12px;
+    color: #fdc800;
+    padding-bottom: 16px;
+}
+.plane{
+    padding: 12px 16px;
+    background-color: #001a39;
+}
+input{
+    width: 76%;
+    height: 46px;
+    background-color: #001a39;
+    color: #c4c4c4;
+    font-family: Roboto;
+    font-size: 14px;
+    border: 0;
+    padding: 8px 12px;
+}
+.fa-paper-plane{
+    color: #fdc800;
+}
+.section-link .card{
+    width: 25%;
+    margin-left: 3px;
+    margin-bottom: 4px;
+    padding: 0;
+    border: 0;
+    border-radius: 0px !important;
+}
+/*****************************************************Section Link End here **************************************************************/
+
+
+/*****************************************************Footer Start here **************************************************************/
+footer{
+background-color: #001a39;
+color: #c4c4c4;
+font-family: Roboto;
+text-transform: capitalize;
+}
+footer p{
+    margin-top: 16px;
+}
+footer span{
+    color: #ffffff;
+}
+.footer-img{
+    text-align: right;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/*****************************************************Footer End here **************************************************************/
